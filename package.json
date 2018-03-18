@@ -40,7 +40,9 @@
     "vue-template-compiler": "^2.5.15"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "element-ui": "^2.2.1",
+    "font-awesome": "^4.7.0",
     "vue": "^2.5.15",
     "vuedraggable": "^2.16.0"
   }

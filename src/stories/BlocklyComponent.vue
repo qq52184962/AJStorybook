@@ -13,9 +13,6 @@
               </draggable>
             </el-menu>
           </el-col>
-
-
-          
           <el-col :span="18">
             <el-container>
               <el-main>
@@ -61,7 +58,7 @@ export default {
         template: '<h2>H2 Title</h2>'
       }, {
         id: '3',
-        template: '<h3 style="font-size: 100px;">{{ title }}</h3>',
+        template: '<h3>{{ title }}</h3>',
         data: function () {
           return {
             title: 'H3 Title'
@@ -85,14 +82,15 @@ export default {
 }
 </script>
 
-<style scoped>
-* {
-  /* border: 2px solid black; */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+<style module>
+
 .box-card {
   /* width: 480px; */
   margin: 10%;
 }
+</style>
+
+<style>
+@import url('./global.css');
 </style>
 
